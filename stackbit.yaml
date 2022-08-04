@@ -170,3 +170,15 @@ models:
       - type: number
         name: weight
         label: Weight
+  contact:
+    type: data
+    label: Contact Info
+    file: contact.yaml
+    fields:
+      - type: string
+        name: email
+        label: Email
+      - type: string
+        name: phone
+        label: Phone
+  
