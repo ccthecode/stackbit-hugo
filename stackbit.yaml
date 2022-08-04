@@ -1,6 +1,6 @@
 ssgName: hugo
 stackbitVersion: ~0.5.0
-publishDir: exampleSite/public
+publishDir: public
 buildCommand: hugo --gc --minify
 uploadDir: images
 staticDir: static
