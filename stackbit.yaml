@@ -5,7 +5,7 @@ buildCommand: hugo --gc --minify
 uploadDir: images
 staticDir: static
 pagesDir: content
-dataDir: /
+dataDir: data
 models:
   home:
     type: page
