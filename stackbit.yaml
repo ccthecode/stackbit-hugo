@@ -96,7 +96,7 @@ models:
       - type: number
         name: weight
         label: Weight
-    teams:
+  teams:
     type: page
     label: Team Overview
     file: team/_index.md
