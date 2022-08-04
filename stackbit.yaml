@@ -119,6 +119,27 @@ models:
         name: intro_image_hide_on_mobile
         label: Intro Image Hide On Mobile
         description: Hide the intro image on mobile screen sizes
+  features:
+  type: data
+  label: Features
+  file: features.json
+  fields:
+    - type: list
+      name: highlights
+      items:
+        type: object
+        label: Highlight
+        labelField: title
+        fields:
+          - type: string
+            name: title
+            label: Title
+          - type: string
+            name: description
+            label: Description
+          - type: image
+            name: image
+            label: Icon
   team:
     type: page
     label: Team
